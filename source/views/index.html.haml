@@ -2,45 +2,81 @@
 title: Playing with Bitters, Bourbon, Neat, Seconds, Haml etc.
 ---
 
-.scroll-on-page
-  %aside#scroll-on-page-top
-    %a.scroll-on-page-link{:href => "#scroll-link-1"} SUMMARY
-    %a.scroll-on-page-link{:href => "#scroll-link-2"} EXPERIENCE
-    %a.scroll-on-page-link{:href => "#scroll-link-3"} EDUCATION
-    %a.scroll-on-page-link{:href => "#scroll-link-4"} SKILLS & EXPERTISE
+%article
+  %section
+    %h4
+      SUMMARY
+    %p
+      I am a motivated and hard-working Web Developer based in Portland, Oregon. I have experience building test-backed applications in Javascript and Ruby, and I love picking up new languages and frameworks. I have built with Rails, Sinatra, Angular, Ember, and a bit of Django and have a good familiarity with the Mocha and RSpec testing frameworks. I came to web development after a career in biology research. Computational biology work in Python rekindled a lifelong fascination with computers and programming languages. I love the challenges that development offers and am excited by incredible tools like Rails and Angular. I am also interested in opportunities to improve existing codebases, become more adept at scaling apps, and to learn additional languages, both object oriented and functional.
+  %section
+    %h4
+      EXPERIENCE
+    .job-title
+      Intern at
+      %span.employer
+        EyeCue Lab
+    .duration
+      2015 (3 months)
+    %p
+      At EyeCue Lab I was responsible for full stack development of an inventory tracking app for a local non-profit soup kitchen. I built the application in Angular on top of a RESTful JSON API implemented in Rails.  In addition to basic inventory, the app tracked item expirations, allowed users to compose shopping lists, and was capable of producing monthly administrator reports. Completing this project gave me a deeper understanding of how to handle tree data structures, custom JSON serialization, cacheing, and handling promises in Javascript.
 
-  %article
-    %section
-      %h4#scroll-link-1 SUMMARY
-      %p
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-      %p
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-    %section
-      %h4#scroll-link-2 EXPERIENCE
-      %p
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-      %p
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-    %section
-      %h4#scroll-link-3 EDUCATION
-      %p
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-      %p
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-        
-    %section
-      %h4#scroll-link-4 SKILLS & EXPERTISE
-      %p
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
-      %p
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid necessitatibus, repudiandae veniam labore, consequatur maiores dolore unde non deleniti, aliquam minima ex nulla error eveniet vel tempore, in incidunt?
+    .job-title
+      Student at
+      %span.employer
+        Epicodus
+    .duration
+      2015 (5 months)
+    %p
+      At Epicodus I learned full stack web development. I learned in depth object oriented programming with both Javascript and Ruby. Beginning with building simple test driven methods on the first day of class, I progressed to building complex Angular front-end applications backed by Rails RESTful JSON APIs. I became adept with the Ruby frameworks; Sinatra, Rails, and Middleman and with the Javascript libraries and frameworks; jQuery, Angular, and Ember.  I also became familiar with SQL query language, and with a group of fellow students built a Postgres backed Chess game during only the fifth week of class. Beyond languages I learned agile development concepts, how to talk about my code with other developers, and the importance of refactoring in maintaining a codebase.
+
+    .job-title
+      Research Assistant at
+      %span.employer
+        Oregon Health & Science University
+    .duration
+      2013 - 2007 (6 years)
+    %p
+      While at OHSU, I built a barcode label based database for organism inventory and lineage tracking using the Filemaker Pro database application. I maintained multiple microscopes and the software packages to operate them. I developed software tools in Python for manipulating and visualizing RNA and DNA sequences. I maintained and programmed aquaria monitoring and alarm systems. I was involved in hiring process and decisions and had some managerial oversight ever multiple facility employees.
+
+  %section
+    %h4
+      EDUCATION
+    .job-title
+      Epicodus
+    %p
+      Web Development (Ruby on Rails, JS, Angular, Ember), 2015
+
+    .job-title
+      University of Oregon
+    %p
+      Bachelor's Degree, Molecular Biology with Honors, 2002 - 2006
+
+    .job-title
+      Independent Coursework, OHSU
+    .columns
+      Data Structures
+      Introductory Python
+      Informatics Algorithms in Python
+      Data Analysis in Python
+
+  %section
+  %h4
+    SKILLS & EXPERTISE
+  .columns
+    Git
+    Javascript
+    Ruby
+    Python
+    SQL
+    Rails
+    Sinatra
+    Middleman
+    jQuery
+    AngularJS
+    Ember.js
+    ERb
+    Haml
+    Bootstrap
+    Foundation
+    Sass
+    Bourbon
