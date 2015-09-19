@@ -33,9 +33,9 @@ header{
   }
 }
 article{
-  padding: 10px 80px;
+  padding: 10px 40px;
   margin: 80px auto;
-  @include linear-gradient(#FFEE9C, #F9FFA6, #FFEE9C);
+  background-color: #f5f5f5;
   border: solid #666;
   border-width: 8px 0 8px 0;
   section{
@@ -76,6 +76,7 @@ article{
   }
   .column-space{
     @include outer-container;
+    margin: 0px 0px 0px 12px;
   }
   .column{
     @include span-columns(4);
