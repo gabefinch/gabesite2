@@ -4,6 +4,7 @@
 @import "neat";
 @import "global";
 
+
 body {
   color: #2B2B2B;
   @include outer-container;
@@ -12,13 +13,14 @@ body {
 header{
   text-align: center;
   h1{
+    font-family: $heading-font-family;
     font-weight: ultra-bold;
     font-size:  5em;
     padding: 0px 0px;
     margin: 15px 0px 0px 0px;
-
   }
   h2{
+    font-family: $heading-font-family;
     font-size: 1.3em;
     padding: 0px 0px;
     margin: 5px auto;
@@ -35,9 +37,11 @@ article{
   border-width: 8px 0 8px 0;
   section{
     h4{
+      font-family: $heading-font-family;
+      font-size: 1em;
       font-weight: 900;
       padding: 0px 0px;
-      margin: 0px auto;
+      margin: 10px 0px 0px 0px;
     }
     p{
       font-size: 1em;
@@ -108,5 +112,15 @@ article{
     }
   }
 
+  .footer{
+    text-align: center;
+    p{
+      font-family: $heading-font-family;
+      font-weight: ultra-bold;
+      font-size:  1em;
+      padding: 0px 0px;
+      margin: 15px 0px 0px 0px;
 
+    }
+  }
 }
