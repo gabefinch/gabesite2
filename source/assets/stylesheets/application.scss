@@ -116,6 +116,9 @@ article{
       margin: 0px 0px 0px 0px;
     }
   }
+  a {
+
+  }
 }
   .mini-column{
     @include span-columns(2);
@@ -136,7 +139,7 @@ article{
       font-weight: ultra-bold;
       font-size:  1em;
       padding: 0px 0px;
-      margin: 15px 0px 0px 0px;
+      margin: 15px 0px 15px 0px;
 
     }
   }
