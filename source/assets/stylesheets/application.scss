@@ -32,8 +32,8 @@ header{
   }
 }
 .animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -105,30 +105,20 @@ article{
     @include span-columns(4);
     font-size: 1em;
     margin: 0px 0px 0px 12px;
-    p{
-      margin: 0px 0px 0px 0px;
-    }
-
-  }
-  .column-last{
-    @include omega();
-    font-size: 1em;
+    @media screen and (max-width: 1007px){
+      @include span-columns(12);
     p{
       margin: 0px 0px 0px 0px;
     }
   }
+}
   .mini-column{
     @include span-columns(2);
     font-size: 1em;
     margin: 0px 0px 0px 12px;
-    p{
-      margin: 0px 0px 0px 0px;
+    @media screen and (max-width: 867px){
+      @include span-columns(4);
     }
-
-  }
-  .mini-column-last{
-    @include omega();
-    font-size: 1em;
     p{
       margin: 0px 0px 0px 0px;
     }
