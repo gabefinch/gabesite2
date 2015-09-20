@@ -11,6 +11,13 @@ body {
       @include span-columns(10);
       @include shift(1);
     }
+  button {
+    @include span-columns(10);
+    @include shift(1);
+    align-text: center;
+    font-family: $heading-font-family;
+    font-weight: ultra-bold;
+  }
 }
 header{
   text-align: center;
@@ -27,9 +34,7 @@ header{
     padding: 0px 0px;
     margin: 5px auto;
   }
-  button {
-    @include button(#ff0000);
-  }
+
 }
 .animated {
   -webkit-animation-duration: 2.5s;
@@ -40,7 +45,7 @@ header{
 @keyframes fadeInDown {
   from {
     opacity: 0;
-    transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -300%, 0);
   }
   to {
     opacity: 1;
