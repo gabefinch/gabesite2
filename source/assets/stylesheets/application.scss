@@ -12,10 +12,11 @@ body {
       @include shift(1);
     }
   button {
-    @include span-columns(10);
-    @include shift(1);
+    @include span-columns(2);
+    @include shift(10);
     align-text: center;
     font-family: $heading-font-family;
+    font-size: 1em;
     font-weight: ultra-bold;
   }
 }
@@ -135,12 +136,13 @@ article{
   .footer{
     text-align: center;
     p{
-      font-family: $heading-font-family;
+      // font-family: $heading-font-family;
       font-weight: ultra-bold;
       font-size:  1em;
       padding: 0px 0px;
-      margin: 15px 0px 15px 0px;
+      margin: 0px 0px 0px 0px;
 
     }
+
   }
 }
